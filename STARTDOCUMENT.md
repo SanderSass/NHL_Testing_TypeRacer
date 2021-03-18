@@ -8,7 +8,7 @@
 
 # Use Case Test 
 |Test case ID|Test Case Purpose|Priority|Actor   |Precondition|Trigger|Postconditions|
-|-----------:|:---------------:|:------:|:------:|:----------:|:-----:|:-------------|
+|:----------:|:---------------:|:------:|:------:|:----------:|:-----:|:------------:|
 | 1          |                 |        |Student |            |       |              |
 | 2          |                 |        |Student |            |       |              |
 | 3          |                 |        |Student |            |       |              |
