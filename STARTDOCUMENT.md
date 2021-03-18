@@ -1,3 +1,3 @@
 #### Process Cycle Test 
 
-![alt text](Process Cycle test .jpeg)
+![alt text](/PCT.png)
