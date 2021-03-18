@@ -1,2 +1,2 @@
 #### Process Cycle Test 
-![alt text]( images/Process Cycle test.jpeg "PCT1")
+![alt text]( ./images/Process Cycle test.jpeg "PCT1")
