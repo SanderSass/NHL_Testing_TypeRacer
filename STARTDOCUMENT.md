@@ -1,17 +1,17 @@
 # Process Cycle Test 
-
+---
 ![alt text](/PCT.png)
 
 ![alt text](/PCT-2.png)
 
 # Decision Coverage Test
-
+---
 # Use Case Test
 ![alt text](/UseCase.png)
 #### Test Cases
-|Test case ID|Test Case Purpose|Priority|Actor   |Precondition|Trigger|Postconditions|
-|:----------:|:---------------:|:------:|:------:|:----------:|:-----:|:------------:|
-| 1          |                 |        |Student |            |       |              |
+|Test case ID|Test Case Purpose                     |Priority|Actor   |Precondition|Trigger|Postconditions|
+|:----------:|:------------------------------------:|:------:|:------:|:----------:|:-----:|:------------:|
+| 1          |Grammar check in the current word     |High    |Student |            |       |              |
 | 2          |                 |        |Student |            |       |              |
 | 3          |                 |        |Student |            |       |              |
 | 4          |                 |        |Student |            |       |              |
