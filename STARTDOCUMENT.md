@@ -4,7 +4,7 @@
 
 ![alt text](/PCT-2.png)
 
-# Desision Coverage Test
+# Decision Coverage Test
 
 # Use Case Test 
 |Test case ID|Test Case Purpose|Priority|Actor   |Precondition|Trigger|Postconditions|
