@@ -6,7 +6,9 @@
 
 # Decision Coverage Test
 
-# Use Case Test 
+# Use Case Test
+![alt text](/UseCase.png)
+#### Test Cases
 |Test case ID|Test Case Purpose|Priority|Actor   |Precondition|Trigger|Postconditions|
 |:----------:|:---------------:|:------:|:------:|:----------:|:-----:|:------------:|
 | 1          |                 |        |Student |            |       |              |
