@@ -6,7 +6,7 @@
 
 # Decision Coverage Test
 ---
-![alt text](/Decision_Coverage_letters - Decision tree.png)
+![alt text](/Decision_Coverage_letters.png)
  
 ![alt text](/Decision_Coverage_CountDown.png)
  
