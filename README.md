@@ -10,7 +10,7 @@
  
 ![alt text](/Decision_Coverage_CountDown.png)
  
-![alt text](/.png)
+![alt text](/Decisison_Coverage_Paragraph.png)
 # Use Case Test
 ![alt text](/UseCase.png)
 #### Test Cases
