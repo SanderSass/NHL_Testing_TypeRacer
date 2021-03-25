@@ -14,15 +14,12 @@
 # Use Case Test
 ![alt text](/UseCase.png)
 #### Test Cases
-|TC ID|Test Case Purpose                                 |Priority|Actor  |Precondition|Trigger|Postconditions|
-|:---:|:------------------------------------------------:|:------:|:-----:|:----------|:-----|:------------|
-| 1   |Check if the grammar works for the current words  |High    |Student|when you started typing, then type some words wrongly|type on keyboard|wronlgy typed |
-|     |                                                  |        |       |to see if grammar going to be checked|       |words are highlighted|
-| 2   |                 |        |Student |            |       |              |
-| 4   |                 |        |Student |            |       |              |
-| 5   |                 |        |Student |            |       |              |
-| 6   |                 |        |Student |            |       |              |
-| 7   |                 |        |Student |            |       |              |
-| 8          |                 |        |Student |            |       |              |
-| 9          |                 |        |Student |            |       |              |
-| 10         |                 |        |Student |            |       |              |
+|TC ID|Test Case Purpose                   |Priority|Actor  |Precondition                                         |Trigger         |Postconditions     |
+|:---:|:-----------------------------------|:------:|:-----:|:----------------------------------------------------|:---------------|:------------------|
+| 1   |TypeRacer doesn't pick up keystrokes|Medium  |Student|Check if user input works in the application         |Type on keyboard|cannot type        |
+| 2   |Make first mistake in paragraph     |Medium  |Student|Check if first mistake stops running an application  |Type on keyboard|App shuts down     |
+| 3   |Check grammar functionality         |High    |Student|When you started typing, then type some words wrongly|Type on keyboard|Wronlgy typed words|
+|     |                                    |        |       |to see if grammar going to be checked                |                |are highlighted    |
+| 4   |Finish typing the whole paragraph   |Medium  |Student|Check application fails if paragraph is completed    |Type on keyboard|App shuts down     |
+| 5   |Special characters unrecognizable   |low     |Student|check the paragraphs special characters              |Type on keyboard|Wronlgy typed words|
+|     |                                    |        |       |                                                     |                |are highlighted    |
