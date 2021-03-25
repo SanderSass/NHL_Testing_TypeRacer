@@ -14,10 +14,10 @@
 #### Test Cases
 |TC ID|Test Case Purpose                   |Priority|Actor  |Precondition                                         |Trigger         |Postconditions     |
 |:---:|:-----------------------------------|:------:|:-----:|:----------------------------------------------------|:---------------|:------------------|
-| 1   |TypeRacer doesn't pick up keystrokes|Medium  |Student|Check if user input works in the application         |Type on keyboard|cannot type        |
-| 2   |Make first mistake in paragraph     |Medium  |Student|Check if first mistake stops running an application  |Type on keyboard|App shuts down     |
-| 3   |Check grammar functionality         |High    |Student|When you started typing, then type some words wrongly|Type on keyboard|Wronlgy typed words|
+| 1   |TypeRacer doesn't pick up keystrokes|Medium  |User   |Check if user input works in the application         |Type on keyboard|cannot type        |
+| 2   |Make first mistake in paragraph     |Medium  |User   |Check if first mistake stops running an application  |Type on keyboard|App shuts down     |
+| 3   |Check grammar functionality         |High    |User   |When you started typing, then type some words wrongly|Type on keyboard|Wronlgy typed words|
 |     |                                    |        |       |to see if grammar going to be checked                |                |are highlighted    |
-| 4   |Finish typing the whole paragraph   |Medium  |Student|Check application fails if paragraph is completed    |Type on keyboard|App shuts down     |
-| 5   |Special characters unrecognizable   |low     |Student|check the paragraphs special characters              |Type on keyboard|Wronlgy typed words|
+| 4   |Finish typing the whole paragraph   |Medium  |User   |Check application fails if paragraph is completed    |Type on keyboard|App shuts down     |
+| 5   |Special characters unrecognizable   |low     |User   |check the paragraphs special characters              |Type on keyboard|Wronlgy typed words|
 |     |                                    |        |       |                                                     |                |are highlighted    |
