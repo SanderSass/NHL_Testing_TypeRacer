@@ -15,7 +15,7 @@
 ![alt text](/UseCase.png)
 #### Test Cases
 |TC ID|Test Case Purpose                                 |Priority|Actor  |Precondition|Trigger|Postconditions|
-|:---:|:------------------------------------------------:|:------:|:-----:|:----------:|:-----:|:------------:|
+|:---:|:------------------------------------------------:|:------:|:-----:|:----------|:-----|:------------|
 | 1   |Check if the grammar works for the current words  |High    |Student|when you started typing, then type some words wrongly|type on keyboard|wronlgy typed |
 |     |                                                  |        |       |to see if grammar going to be checked|       |words are highlighted|
 | 2   |                 |        |Student |            |       |              |
