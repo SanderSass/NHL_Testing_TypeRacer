@@ -14,15 +14,15 @@
 # Use Case Test
 ![alt text](/UseCase.png)
 #### Test Cases
-|Test case ID|Test Case Purpose                     |Priority|Actor   |Precondition|Trigger|Postconditions|
-|:----------:|:------------------------------------:|:------:|:------:|:----------:|:-----:|:------------:|
-| 1          |Grammar check in the current word     |High    |Student |            |       |              |
-| 2          |                 |        |Student |            |       |              |
-| 3          |                 |        |Student |            |       |              |
-| 4          |                 |        |Student |            |       |              |
-| 5          |                 |        |Student |            |       |              |
-| 6          |                 |        |Student |            |       |              |
-| 7          |                 |        |Student |            |       |              |
+|TC ID|Test Case Purpose                                 |Priority|Actor  |Precondition|Trigger|Postconditions|
+|:---:|:------------------------------------------------:|:------:|:-----:|:----------:|:-----:|:------------:|
+| 1   |Check if the grammar works for the current words  |High    |Student|when you started typing, then type some words wrongly|type on keyboard|wronlgy typed |
+|     |                                                  |        |       |to see if grammar going to be checked|       |words are highlighted|
+| 2   |                 |        |Student |            |       |              |
+| 4   |                 |        |Student |            |       |              |
+| 5   |                 |        |Student |            |       |              |
+| 6   |                 |        |Student |            |       |              |
+| 7   |                 |        |Student |            |       |              |
 | 8          |                 |        |Student |            |       |              |
 | 9          |                 |        |Student |            |       |              |
 | 10         |                 |        |Student |            |       |              |
