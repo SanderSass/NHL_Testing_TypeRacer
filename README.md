@@ -1,17 +1,15 @@
-# Process Cycle Test 
----
+## Process Cycle Test 
 ![alt text](/PCT.png)
 
 ![alt text](/PCT-2.png)
 
-# Decision Coverage Test
----
+## Decision Coverage Test
 ![alt text](/Decision_Coverage_letters.png)
  
 ![alt text](/Decision_Coverage_CountDown.png)
  
 ![alt text](/Decisison_Coverage_Paragraph.png)
-# Use Case Test
+## Use Case Test
 ![alt text](/UseCase.png)
 #### Test Cases
 |TC ID|Test Case Purpose                   |Priority|Actor  |Precondition                                         |Trigger         |Postconditions     |
