@@ -20,7 +20,6 @@ public class Main {
         {
             e.printStackTrace();
         }
-        getCountdownTimer();
         getParagraph();
         getWpm();
 
@@ -53,8 +52,18 @@ public class Main {
 
         // {(x characters / 5) / 1 min = y WPM} wpm calculation
         int wpm = (int) ((((double)numChars / 5) / seconds) * 60);
+
+
         scan.close();
-        System.out.println("Your wpm is " + wpm + "!");
+        if (seconds < 120)
+        {
+            System.out.println("Your wpm is " + wpm + "!");
+            System.out.println("Your completion time is " + (int) seconds + " seconds");
+        }
+        else
+        {
+            System.out.println("You failed to complete the paragraph in the given time limit.");
+        }
     }
 
     public static void getParagraph()
@@ -64,38 +73,6 @@ public class Main {
         {
             System.out.print(words[rand.nextInt(20)] + " ");
         }
-    }
-    public static void getCountdownTimer() throws InterruptedException {
-        int charsWritten = 0;
-        long start = System.currentTimeMillis();
-        while (1 > 0) {
-            Thread.sleep(1000);
-            long elapsedTime2 = System.currentTimeMillis() - start;
-            elapsedTime2 = elapsedTime2 / 1000;
-
-            String seconds = Integer.toString((int) (elapsedTime2 % 60));
-            String minutes = Integer.toString((int) ((elapsedTime2 % 3600) / 60));
-            String hours = Integer.toString((int) (elapsedTime2 / 3600));
-
-            if (seconds.length() < 2) {
-                seconds = "0" + seconds;
-            }
-
-            if (minutes.length() < 2) {
-                minutes = "0" + minutes;
-            }
-
-            if (hours.length() < 2) {
-                hours = "0" + hours;
-            }
-
-            String writeThis = hours + ":" + minutes + ":" + seconds;
-
-            for (int i = 0; i < charsWritten; i++) {
-                System.out.print("\b");
-            }
-            System.out.print(writeThis);
-            charsWritten = writeThis.length();
-        }
+        System.out.print("\n");
     }
 }
