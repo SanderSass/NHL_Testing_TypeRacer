@@ -23,56 +23,60 @@ class MainTest {
     }
 
     @Test
-    void getWpm()
-    {
+    void BelowTimeLimitInSecondsWpm() throws InterruptedException {
         double startTime = LocalTime.now().toNanoOfDay();
-
-        Scanner scan = new Scanner(System.in);
-        String typedWords = scan.nextLine();
-
+        TimeUnit.SECONDS.sleep(3);
         double endTime = LocalTime.now().toNanoOfDay();
         double elapsedTime = endTime - startTime;
         double seconds = elapsedTime / 1000000000.0;
-        int numChars = typedWords.length();
-
-        // {(x characters / 5) / 1 min = y WPM} wpm calculation
-        int wpm = (int) ((((double)numChars / 5) / seconds) * 60);
-
-
-        scan.close();
-        if (seconds < 120)
+        if (seconds < 5)
         {
+            System.out.println("Your completion time is " + (int) seconds + " seconds");
 
         }
         else
         {
+            System.out.println("You failed to complete the paragraph in the given time limit.");
 
         }
+        assertEquals(3, (int)seconds );
     }
 
     @Test
-    void getParagraph()
+    void AboveTimeLimitInSecondsWpm() throws InterruptedException {
+        double startTime = LocalTime.now().toNanoOfDay();
+        TimeUnit.SECONDS.sleep(5);
+        double endTime = LocalTime.now().toNanoOfDay();
+        double elapsedTime = endTime - startTime;
+        double seconds = elapsedTime / 1000000000.0;
+        if (seconds < 5)
+        {
+            System.out.println("Your completion time is " + (int) seconds + " seconds");
+
+        }
+        else
+        {
+            System.out.println("You failed to complete the paragraph in the given time limit.");
+
+        }
+        assertEquals(5, (int)seconds );
+    }
+
+    @Test
+    void getRandomisedParagraphFromWordsArray()
     {
         String[] words = {"Cake", "or", "pie", "I", "can", "tell", "a", "lot", "about", "you", "by", "which", "one", "you", "pick", "It", "may", "seem", "silly", "but", "cake"};
         Random rand = new Random();
-        ArrayList<String> wordArrayList = new ArrayList<>();
-        for (int i = 0; i < 20; i++)
+        ArrayList<String> randomWordsArray = new ArrayList<String>();
+        for (int i = 0; i < 25; i++)
         {
-            String word = words[rand.nextInt(20)];
-            if (wordArrayList.contains(word))
-            {
-
-            }
-            else
-            {
-                wordArrayList.add(word);
-
-            }
-            assertNotEquals(words, wordArrayList);
+            String randomWordFromTheArray = words[rand.nextInt(20)];
+            randomWordsArray.add(randomWordFromTheArray);
         }
-        for (int i = 0; i < 20; i++)
+        System.out.print(randomWordsArray + " ");
+        for (int i = 0; i < words.length; i++)
         {
-            System.out.print(wordArrayList + " ");
+            assertNotEquals(words[i], randomWordsArray.get(i));
         }
     }
 }
