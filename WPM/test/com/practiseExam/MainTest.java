@@ -76,7 +76,7 @@ class MainTest {
         System.out.print(randomWordsArray + " ");
         for (int i = 0; i < words.length; i++)
         {
-            assertNotEquals(words[i], randomWordsArray.get(i));
+            assertNotSame(randomWordsArray.get(i), words[i], "These two arrays are not the same");
         }
     }
 }
